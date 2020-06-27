@@ -7,11 +7,12 @@ body{
     background-color:blue;
 }
 .signup{
-    text-size-adjust: ;
+    font-size: x-large;
     text-align: center;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 .inputs{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: center;
 }
