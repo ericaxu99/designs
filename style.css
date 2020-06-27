@@ -1,10 +1,17 @@
-.background{
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:white;
+}
+.container{
     background-color:blue;
 }
 .signup{
+    text-size-adjust: ;
     text-align: center;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
-.box{
-    justify-content: center; 
+.inputs{
+    display: flex;
+    flex-direction: column; 
 }
