@@ -1,7 +1,7 @@
 body{
-    background:url(Arteagas-Mexican-Grocery-Store-Background.jpg);
+    background: url(black-line-background_45981-265.jpg),url(Arteagas-Mexican-Grocery-Store-Background.jpg);
     background-size:cover;
-    background-blend-mode: lighten;
+    background-blend-mode: saturation;
     display:flex;
     justify-content:center;
     padding-top:90px;
@@ -12,7 +12,7 @@ body{
     justify-content:center;
     padding: 20px;
     text-align: center;
-    background-color:black;
+    background-color:transparent;
     width:25%;
     overflow:hidden;
   }
