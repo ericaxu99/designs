@@ -2,21 +2,22 @@ body{
     background:url(bg.png);
     display:flex;
     justify-content:center;
-    padding-top:50px;
+    padding-top:90px;
+  
   }
 .signup-form{
     display:flex;
     justify-content:center;
     padding: 20px;
     text-align: center;
-    background-color:white;
-    width:40%;
-    height:90%;
+    background-color:black;
+    width:25%;
     overflow:hidden;
   }
 h1{
+    color:white;
     margin-top: 90px;
-   font: small-caps bold 50px/1 sans-serif;
+    font: small-caps bold 50px/1 'Permanent Marker', cursive; 
   }
 input{
     margin:10px;
@@ -26,9 +27,9 @@ input{
     text-align: center;
     border-radius: 10px;
     font: caption;
-  outline:none;
-  border-style: solid;
-  border-color: #92a8d1;
+    outline:none;
+    border-style: solid;
+    border-color: #92a8d1;
   }
 .txtb{
     margin: 15px 0;
@@ -41,16 +42,15 @@ input{
     cursor:pointer;
     transition: 0.5s;
   }
-  .signup-btn:hover{
+.signup-btn:hover{
    transform:scale(1.1);
   }
-.signup-form a{
-    color: black;
-    font-family: "montserrat",sans-serif;
-    font-size: 14px;
-    padding-bottom: 40px;
+a{
+    color: darkgray;
+    font: 14px "montserrat",sans-serif;
+    margin-bottom: 40px;
   }
- .signup-form a:hover{
-    text-shadow: #487eb0 1px 0 10px;
+a:hover{
+    color: whitesmoke;
   }
  
