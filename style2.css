@@ -3,9 +3,8 @@ body{
     display:flex;
     justify-content:center;
     padding-top:90px;
-  
   }
-.signup-form{
+.login-form{
     display:flex;
     justify-content:center;
     padding: 20px;
@@ -35,7 +34,7 @@ input{
     margin: 15px 0;
     background: whitecoral;
   }
-.signup-btn{ 
+.login-btn{ 
     background: #487eb0;
     color:white;
     border-radius: 50px;
@@ -43,7 +42,7 @@ input{
     margin-top: 40px;
     transition: 0.5s;
   }
-.signup-btn:hover{
+.login-btn:hover{
    transform:scale(1.1);
   }
 a{
