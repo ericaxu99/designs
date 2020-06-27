@@ -1,5 +1,6 @@
 body{
-    background:url(bg.png);
+    background:url(Arteagas-Mexican-Grocery-Store-Background.jpg);
+    background-size:cover;
     display:flex;
     justify-content:center;
     padding-top:90px;
