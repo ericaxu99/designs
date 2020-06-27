@@ -5,15 +5,16 @@ body{
   display:flex;
   justify-content:center;
   padding-top:90px;
+  overflow:hidden;
 }
 .signup-form{
   display:flex;
   justify-content:center;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   background-color:rgba(255, 255, 255, 0.4);
   width:25%;
-  overflow:hidden;
+  overflow: hidden;
 }
 h1{
   color:black;
@@ -33,12 +34,12 @@ input{
   border-style: solid;
   border-color: #92a8d1;
 }
-.txtb{
-  margin: 15px 0;
+.container{
+  margin: 45px;
   background: whitecoral;
 }
 .signup-btn{ 
-  background: #487eb0;
+  background: #2c5377;
   color:white;
   border-radius: 50px;
   cursor:pointer;
@@ -56,3 +57,6 @@ a{
 a:hover{
   color: rgb(206, 199, 214);
 }
+input:hover{
+  transform:scale(1.1);
+}+
