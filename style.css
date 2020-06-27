@@ -1,5 +1,5 @@
 body{
-    background:black;
+    background:url(bg.png);
     display:flex;
     justify-content:center;
     padding-top:50px;
@@ -9,13 +9,12 @@ body{
     justify-content:center;
     padding: 20px;
     text-align: center;
-    background:url(bg.png);
+    background-color:white;
     width:40%;
     overflow:hidden;
   }
 h1{
-    color:white;
-   margin-top: 90px;
+    margin-top: 90px;
    font: small-caps bold 50px/1 sans-serif;
   }
 input{
@@ -45,7 +44,7 @@ input{
    transform:scale(1.1);
   }
 .signup-form a{
-    color: whitesmoke;
+    color: black;
     font-family: "montserrat",sans-serif;
     font-size: 14px;
     padding: 10px;
